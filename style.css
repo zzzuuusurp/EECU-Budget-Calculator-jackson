@@ -25,10 +25,7 @@
 #Checkbook-table {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-
-    
+    align-items: center; 
 }
 
 #inputs {
@@ -39,12 +36,23 @@
 }
 
 .input-field {
-    width: 15vw;
+    width: 16.4vw;
+    height: 5vh;
 }
 
 #container {
     display: flex;
     
+}
+
+a.prev-btn {
+    background-color:#277b00;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+
 }
 
 /*End of Checkbox CSS*/
